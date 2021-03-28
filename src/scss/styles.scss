@@ -1,0 +1,15 @@
+// Arquivo scss das fontes
+
+// Arquivo scss das variaveis
+@import './variables/layoutColors.scss';
+
+// Reset de estilo
+@import './global/resetStyle.scss';
+
+// Arquivo de estilo global
+@import './global/globalStyle.scss';
+
+// Estilos dos componentes
+@import './components/Button.scss';
+
+// Estilos dos componentes responsivos

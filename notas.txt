@@ -1,0 +1,150 @@
+1 - Aula
+  > O que é React
+    -- É uma biblioteca JS para criar interfaces
+    -- Baseado em componentes
+  > Configuração
+  > O que é JSX
+    -- O JSX significa JavaScript XML e nos permite escrever HTML no React, tornando fácil a sua adição
+  > Renderização
+    -- Todas as renderizações são feita de nós raiz ou seja, tudo que se estar retornando igual no exemplo do jsx
+    -- React DOM: o react não trabalha diretamente em cima do dom mas sim com o virtual DOM, então quando ha uma alteração no html o react
+        não atualizará tudo novamente mas sim apenas aquele elemento 
+
+  > Componentes e props
+    -- Componentes são como pequenas partes de codigos e funcionalidades semelhante a um lego
+      --  Na criação de componente eles necessitam ser o
+          mais puro possivel pois como ele sera reutilizado
+          em outras paginas, então uma boa pratica é ele 
+          ser o mais abstrato possivel, sem estado, pode ter
+          manipulação de propriedade, mas é interessante q ele
+          não tenha estado e seja um componente puro
+    -- Props são parametros que queremos passar para esse pequeno pedaço de codigo
+    -- Um componente pode trabalhar de duas formas: 
+       * função e classe
+       * props
+       * Composição de componentes
+       -- 
+       * Extração de componente
+       -- Utilizando o parametro props.children
+    
+  > Estado e ciclo de vida
+    * Inicialização: Seria as props e state
+    * Montagem: 
+    * Atualização
+    * Desmontagem
+
+  > Ecossistema
+    -- Existem outros elementos que juntamente usados ao react
+    deixaram sua apalicação robusta
+    * React Router
+    * Redux
+    * Material UI
+    * Storybook
+    * Gatsby
+    * Jest
+    * React i18n Next
+
+
+Requisitos
+ * Javascript
+ * CSS
+ * HTML
+ * VSCODE
+ * NPM
+
+
+WEBPACK
+  Webpack vai gerenciar a leitura de arquivos CSS, JavaScript e assets
+  de seu projeto, empacotando esse conteúdo para desenvolvimento ou produção.
+  Ele irá funcionar de forma recursiva, um arquivo funciona como ponto de partida,
+  a partir desse ponto inicial ele irá varrer todos os arquivos que estão 
+  conectados em sua aplicação e para cada caso teremos um tratamento específico.
+
+  fazendo assim um module bundler (um empacotador de módulos para aplicaçoes JS)
+  No geral um bundles é um arquivo final onde o webpack 
+  pega todos os modulos e vai empacotar dentro de um unico arquivo,
+  ele trabalha com grafos então ele consegue criar toda uma arvore
+
+  A vantagem de utilizar esse recurso é que evitaremos carregar diversos arquivos JS com
+  diferentes tags amenizando problemas de performace na aplicação 
+
+  conceitos:
+  o webpack precisará do arquivo de 
+  *Entry: que é um ponto de entrada para buscar
+  todos os modulos e dependencias.
+  *Output: É para determinar quais são os bundler que o webpack ira emitir
+  *Loaders:
+  *Plugins:
+
+  Usando SASS com Webpack
+  --Etapa 1. Instale o sass-loader
+  > npm i sass-loader node-sass webpack --save-dev
+  > npm i style-loader css-loader --save-dev
+  --Etapa 2. Incluir sass-loader em seu arquivo de configuração Webpack
+  >
+
+Craindo o arquivo webpakconfig.js
+
+> code:
+const path = require('path');
+
+module.exports = {
+  entry: './src/index.js',
+  output: {
+    path: path.resolve(__dirname, 'dist'),
+    filename: 'bundle.js'
+  }
+}
+
+comando para a instalção do webpack-cli
+> yarn add -D webpack webpack-cli
+
+no arquivo package.json adicionamos no script um comando que é o 
+"build": "webpack  --mode production"
+-- Existem modos no webpack que são de desenvolvimento produção 
+
+O que é um build
+
+ESLint
+
+
+Renderização Condicional 
+  > Em React, voce pode criar componentes distintos que encapsulam o comportamento
+    que você precisa. Então, voce pode renderizar apenas alguns dos elementos, dependendo
+    do estadoda sua aplicação.
+
+    -- Variaveis de Elemento
+    quando o elemento leva com sigo o false ele não chega aser nem Renderizado
+
+    -- If inline com o Operador Logico &&
+
+    --If-Else inline com Operador Condicional
+
+    --Evitando que um Componente seja Renderizado
+
+Lista e Chaves
+
+    --Renderizando multiplos Componentes
+
+    --Componentes de lista basicos
+
+    --Chaves
+
+    --Extraindo Componentes com chaves
+
+    --Chaves devem ser unicas apenas entre elementos Irmãos
+
+
+Manipulando Eventos
+  --eventos em elementos reacts são semelahnte a manipular eventos em elementos do DOM
+  * Eventos em react são nomeados usando camelCase ao inves de letra minusculas
+
+  *Com o JSX voce passa uma função como manipulação de eventos ao inves de um texto
+
+  --Enventos
+
+  --Passando argumentos para manipuldores de eventos 
+
+
+Pensando em React
+
