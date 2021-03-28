@@ -8,7 +8,6 @@ import ComponentePorClass from "./ComponentePorClass.jsx";
 
 function ExempleCode() {
 
-
   const elemento = "World";
   const element2 = <div>Teesteeee</div>
 
@@ -146,7 +145,7 @@ function ExempleCode() {
 
   return (
     <>
-      <h1>Hello { elemento }</h1>
+      <h1> { elemento }</h1>
       { element2 }
       {/* { soma(1, 2) } */}
       <Button onClick={() => soma(10, 20)} teste="TESTE" name="Bob unbelievable" />

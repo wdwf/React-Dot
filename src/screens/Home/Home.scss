@@ -1,0 +1,43 @@
+.Home {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color:  $BG_Black00;
+
+  .Home__content{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+
+    .Home__title {
+      width: 140px;
+
+      .Home__title-text {
+        display: block;
+        font-size: 3rem;
+        width: 100px;
+        color: $LT_White;
+      }
+
+      hr {
+        margin-top: 50px;
+        width: 100%;
+        border: 5px solid $LT_White;
+      }
+
+      .Home__sub-title-text {
+        font-size: 1.5rem;
+        color: $LT_White;
+        padding-top: 15px;
+      }
+    }
+
+     .Home__galaxy-points {
+       width: 300px;
+       height: 300px;
+       background-color:  $BG_White;
+     }
+  }
+}

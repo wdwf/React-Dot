@@ -1,15 +1,10 @@
 import React from "react";
-// import ExempleCode from './components/ExempleCode';
-import Header from './components/Header';
-import Main from './components/Main';
+import Routes from './Routes';
+
 
 function App() {
-
   return (
-    <div className="App">
-      <Header />
-      <Main />
-    </div>
+    <Routes />
   );
 }
 

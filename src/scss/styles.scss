@@ -9,7 +9,15 @@
 // Arquivo de estilo global
 @import './global/globalStyle.scss';
 
+// Arquivo de estilo das screens
+@import '../screens/Home/Home.scss';
+@import '../screens/Home/Home_Media.scss';
+
+@import '../screens/Projects/Projects.scss';
+@import '../screens/Projects/Projects_Media.scss';
+
 // Estilos dos componentes
 @import './components/Button.scss';
+@import './components/BarMenu.scss';
 
 // Estilos dos componentes responsivos
