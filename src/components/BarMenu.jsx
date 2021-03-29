@@ -13,14 +13,12 @@ function BarMenu(props) {
 
   return (
       <div className="BarMenu">
-        <FaReact className="icon" />
+        
+        <Link to="/"><FaReact className="icon" /></Link>
         <hr/>
         <div className="icon__container">
           <div className="icon__container-center">
-
             <Link to={`${url}/codes`}><BiCodeAlt className="icon icon__element-smaller" /></Link>
-            
-
             <HiMenuAlt2 className="icon icon__element-smaller" />
             <BiSearchAlt2 className="icon icon__element-smaller" />
             <BsGearFill className="icon icon__element-smaller" />

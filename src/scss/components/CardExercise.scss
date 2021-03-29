@@ -1,14 +1,14 @@
 .CardExercise {
   width: 150px;
   height: 200px;
-  background-color:  $BG_GreyBlack;
+  background-color:   $BG_GreyBlackSecond;
   display: flex;
   margin-bottom: 15px;
 
   .Line-left {
     width: 5px;
     height: 100%;
-    background-color: $BG_GreyBlackSecond;
+    background-color: $BG_GreyBlackLight;
     position: relative;
 
     .Line {
@@ -26,21 +26,28 @@
   }
 
   .CardExercise__content {
+    width: 100%;
     padding-left: 20px;
 
     .CardExercise__content-block {
       display: block;
       
       &.CardExercise__content-tool {
-        margin: 15px 0 110px 0;
+        width: 90%;
+        height: 55%;
         font-size: .8rem;
         color: $LT_Light;
+        margin-top: 15px;
       }
 
       &.CardExercise__content-title {
+        width: 90%;
+        max-height: 35px;
+        overflow: hidden;
         margin-bottom: 10px;
         font-size: .8rem;
         color: $LT_Light;
+        line-height: 1rem;
       }
 
       &.CardExercise__content-level {
