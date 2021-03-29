@@ -9,7 +9,7 @@ function Home() {
           <h1 className="Home__title-text">Welley Ferreira</h1>
           <hr/>
           <p className="Home__sub-title-text">
-            Portifolio de estudos
+            Portfolio de estudos
           </p>
           <hr/>
         </div>

@@ -1,0 +1,52 @@
+.CardExercise {
+  width: 150px;
+  height: 200px;
+  background-color:  $BG_GreyBlack;
+  display: flex;
+  margin-bottom: 15px;
+
+  .Line-left {
+    width: 5px;
+    height: 100%;
+    background-color: $BG_GreyBlackSecond;
+    position: relative;
+
+    .Line {
+      position: absolute;
+      top: 15px;
+      width: 2px;
+      height: 15px;
+    }
+    .React {
+      background-color:  $BG_Blue;
+    }
+    .Vue {
+      background-color:  $BG_LightGreenSecond;
+    }
+  }
+
+  .CardExercise__content {
+    padding-left: 20px;
+
+    .CardExercise__content-block {
+      display: block;
+      
+      &.CardExercise__content-tool {
+        margin: 15px 0 110px 0;
+        font-size: .8rem;
+        color: $LT_Light;
+      }
+
+      &.CardExercise__content-title {
+        margin-bottom: 10px;
+        font-size: .8rem;
+        color: $LT_Light;
+      }
+
+      &.CardExercise__content-level {
+        color: $LT_White;
+        font-weight: 500;
+      }
+    }
+  }
+}
