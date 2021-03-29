@@ -4,15 +4,15 @@ import CardExercise from './CardExercise';
 function ContainerCard() {
   return(
     <div className="ContainerCard">
-      <CardExercise tool="React" title="Props" level="Beginner" />
-      <CardExercise tool="React" title="Hooks" level="Beginner" />
-      <CardExercise tool="React" title="Componentes" level="Beginner" />
-      <CardExercise tool="React" title="Webpack" level="Beginner" />
-      <CardExercise tool="React" title="ESLint" level="Beginner" />
-      <CardExercise tool="React" title="Operador Condicional sadsadsadsadfsadfsgdh" level="Beginner" />
-      <CardExercise tool="React" title="Props" level="Beginner" />
-      <CardExercise tool="React" title="Props" level="Beginner" />
-      <CardExercise tool="React" title="Props" level="Beginner" />
+      <CardExercise tool="REACT" title="Props" level="Beginner" />
+      <CardExercise tool="REACT" title="Hooks" level="Beginner" />
+      <CardExercise tool="REACT" title="Componentes" level="Beginner" />
+      <CardExercise tool="REACT" title="Webpack" level="Beginner" />
+      <CardExercise tool="REACT" title="ESLint" level="Beginner" />
+      <CardExercise tool="REACT" title="Operador Condicional" level="Beginner" />
+      <CardExercise tool="REACT" title="Props" level="Beginner" />
+      <CardExercise tool="REACT" title="Props" level="Beginner" />
+      <CardExercise tool="REACT" title="Props" level="Beginner" />
     </div>
   );
 }
