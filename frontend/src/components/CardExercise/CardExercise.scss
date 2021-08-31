@@ -23,6 +23,9 @@
     .Vue {
       background-color:  $BG_LightGreenSecond;
     }
+    .Js {
+      background-color: $BG_Orange;
+    }
   }
 
   .CardExercise__content {
@@ -37,7 +40,7 @@
         height: 55%;
         font-size: .8rem;
         color: $LT_Light;
-        margin-top: 15px;
+        margin-top: 17px;
       }
 
       &.CardExercise__content-title {

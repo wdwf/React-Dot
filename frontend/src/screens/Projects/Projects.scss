@@ -1,0 +1,15 @@
+.Projects {
+  width: 100%;
+  min-height: 100vh;
+  background-color: $BG_Dark;
+  display: flex;
+
+  .Projects__container-content {
+    width: 90%;
+    // height: 1000px;
+    padding-left: 100px;
+  }
+
+
+}
+

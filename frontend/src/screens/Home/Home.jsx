@@ -6,7 +6,7 @@ function Home() {
     <div className="Home">
       <div className="Home__content">
         <div className="Home__title">
-          <h1 className="Home__title-text">Welley Ferreira</h1>
+          <h1 className="Home__title-text">Olá! Bem vindo</h1>
           <hr/>
           <p className="Home__sub-title-text">
             Portfolio de estudos
@@ -14,7 +14,11 @@ function Home() {
           <hr/>
         </div>
 
-        <Link to="/projects"><div className="Home__galaxy-points"></div></Link>
+        <Link to="/projects">
+          <span className="Home__galaxy-points"></span>
+          <span className="Home__galaxy-points"></span>
+          <span className="Home__galaxy-points"></span>
+        </Link>
         
         
       </div>

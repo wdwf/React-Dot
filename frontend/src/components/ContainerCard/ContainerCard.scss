@@ -1,0 +1,23 @@
+.ContainerCard {
+  
+
+  .ContainerCard__header {
+    width: 100%;
+    height: 35px;
+    border-bottom: 2px solid $BG_LightGreenSecond;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+
+    .ContainerCard__title {
+      color: $LT_White;
+    }
+  }
+
+  .ContainerCard__wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 165px);
+  }
+  
+}
