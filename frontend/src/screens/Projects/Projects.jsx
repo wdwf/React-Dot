@@ -1,8 +1,8 @@
 import React from 'react';
 import { Route, Switch, useRouteMatch } from 'react-router-dom';
 
-import BarMenu from '../../components/BarMenu/BarMenu';
-import ContainerCard from '../../components/ContainerCard/ContainerCard';
+import BarMenu from '../../components/BarMenu';
+import ContainerCard from '../../components/ContainerCard';
 
 function Projects() {
 
@@ -15,12 +15,15 @@ function Projects() {
       
 
       <div className="Projects__container-content">
-      
-        <Switch>
-          
-          <Route path={`${path}/:codes`} component={ ContainerCard }></Route>
-          
-        </Switch>
+
+      <div className="Projects__container-header">
+        <h1 className="Projects__title">Galeria de Projetos</h1>
+      </div>
+
+      <Switch>
+        <Route path={`${path}/:codes`} component={ ContainerCard }></Route>
+        
+      </Switch>
 
       </div>
 

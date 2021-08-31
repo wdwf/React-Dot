@@ -9,7 +9,6 @@
     width: 80%;
     display: flex;
     justify-content: space-around;
-    align-items: center;
     align-self: center;
 
     .Home__title {
@@ -35,62 +34,10 @@
       }
     }
 
-    a {
-      width: 140px;
-      height: 140px;
-      border-radius: 100%;
-      background-color:  $BG_White;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      // animation: spin 6s linear infinite;
-    }
-
-    .Home__galaxy-points {
-      
-      border-radius: 100%;
-      border: 2px dashed #fff;
-      background-color: transparent;
-      
-
-      &:nth-child(1) {
-        width: 160px;
-        height: 160px;
-        
-        
-        &::before{
-          content: "";
-          width: 25px;
-          height: 25px;
-          display: block;
-          background-color: $BG_White;
-          
-          // animation: spin 10s linear infinite;
-        }
-      }
-      &:nth-child(2) {
-        width: 160px;
-        height: 160px;
-        // animation: spin 10s linear infinite;
-      }
-      // &:nth-child(3) {
-      //   width: 160px;
-      //   height: 160px;
-      //   animation: spin 10s linear infinite;
-      // }
-    }   
+     .Home__galaxy-points {
+       width: 300px;
+       height: 300px;
+       background-color:  $BG_White;
+     }
   }
-}
-
-@keyframes spin {
-  from {
-    transform: rotate(0deg) translateX(150px) rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg) translateX(150px) rotate(-360deg);
-  }
-  // 100% { 
-  //   // transform: rotate(360deg); 
-  //   // transform: rotate(360deg); 
-  // }
 }
