@@ -18,9 +18,9 @@
 @import '../screens/Projects/Projects_Media.scss';
 
 // Estilos dos componentes
-@import './components/Button.scss';
-@import './components/BarMenu.scss';
-@import './components/CardExercise.scss';
-@import './components/ContainerCard.scss';
+@import '../components/Button/Button.scss';
+@import '../components/BarMenu/BarMenu.scss';
+@import '../components/CardExercise/CardExercise.scss';
+@import '../components/ContainerCard/ContainerCard.scss';
 
 // Estilos dos componentes responsivos
